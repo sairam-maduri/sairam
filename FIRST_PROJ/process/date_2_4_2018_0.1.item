@@ -145,7 +145,7 @@
   <node componentName="tSplitRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="96">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSplitRow_1" show="false"/>
     <elementParameter field="TABLE" name="COL_MAPPING">
-      <elementValue elementRef="name" value="row1.first_name+row1.lastname"/>
+      <elementValue elementRef="name" value="row1.first_name+&quot; &quot;+row1.lastname"/>
       <elementValue elementRef="address" value="row1.add1+&quot;,&quot;+row1.city+&quot;,&quot;+row1.state"/>
     </elementParameter>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
