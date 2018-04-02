@@ -124,6 +124,19 @@
       <relatedItems xmi:id="_OAjV2jQZEei75tgpFpecWg" id="TalendDate" version="Latest" type="routine"/>
       <relatedItems xmi:id="_OAjV2zQZEei75tgpFpecWg" id="Mathematical" version="Latest" type="routine"/>
     </ItemsRelations>
+    <ItemsRelations xmi:id="_BEazMDZhEeiJwvuFyv-T0g">
+      <baseItem xmi:id="_BEazMTZhEeiJwvuFyv-T0g" id="_deFz8DZgEeiJwvuFyv-T0g" version="0.1" type="job"/>
+      <relatedItems xmi:id="_BEazMjZhEeiJwvuFyv-T0g" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_BEazMzZhEeiJwvuFyv-T0g" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_BEazNDZhEeiJwvuFyv-T0g" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_BEazNTZhEeiJwvuFyv-T0g" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_BEazNjZhEeiJwvuFyv-T0g" id="TalendStringUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_BEazNzZhEeiJwvuFyv-T0g" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_BEazODZhEeiJwvuFyv-T0g" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_BEazOTZhEeiJwvuFyv-T0g" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_BEazOjZhEeiJwvuFyv-T0g" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_BEazOzZhEeiJwvuFyv-T0g" id="Mathematical" version="Latest" type="routine"/>
+    </ItemsRelations>
     <migrationTask xmi:id="_x_NZsDQSEei75tgpFpecWg" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_x_NZsTQSEei75tgpFpecWg" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_x_NZsjQSEei75tgpFpecWg" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
