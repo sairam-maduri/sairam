@@ -159,8 +159,8 @@
       <outputTables sizeState="INTERMEDIATE" name="bjfdks">
         <mapperTableEntries name="firstname" expression="StringHandling.DQUOTE(row1.firstname ) " type="id_String" nullable="true"/>
         <mapperTableEntries name="lastname" expression="StringHandling.DQUOTE(row1.lastname) " type="id_String" nullable="true"/>
-        <mapperTableEntries name="floor" expression="StringHandling.DQUOTE(row1.floor + &quot; &quot;) " type="id_String" nullable="true"/>
-        <mapperTableEntries name="roomno" expression="StringHandling.DQUOTE(row1.roomno + &quot; &quot;) " type="id_String" nullable="true"/>
+        <mapperTableEntries name="floor" expression="StringHandling.DQUOTE(row1.floor+ &quot; &quot;) " type="id_String" nullable="true"/>
+        <mapperTableEntries name="roomno" expression="StringHandling.DQUOTE(row1.roomno+ &quot; &quot;) " type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="firstname" type="id_String" nullable="true"/>
