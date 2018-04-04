@@ -150,8 +150,8 @@
     <metadata connector="FLOW" label="bjfdks" name="bjfdks">
       <column comment="" key="false" length="-1" name="firstname" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="lastname" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="floor" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="roomno" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="floor" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="roomno" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
@@ -159,8 +159,8 @@
       <outputTables sizeState="INTERMEDIATE" name="bjfdks">
         <mapperTableEntries name="firstname" expression="StringHandling.DQUOTE(row1.firstname ) " type="id_String" nullable="true"/>
         <mapperTableEntries name="lastname" expression="StringHandling.DQUOTE(row1.lastname) " type="id_String" nullable="true"/>
-        <mapperTableEntries name="floor" expression="StringHandling.DQUOTE(row1.floor + &quot; &quot;) " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="roomno" expression="StringHandling.DQUOTE(row1.roomno + &quot; &quot;) " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="floor" expression="StringHandling.DQUOTE(row1.floor + &quot; &quot;) " type="id_String" nullable="true"/>
+        <mapperTableEntries name="roomno" expression="StringHandling.DQUOTE(row1.roomno + &quot; &quot;) " type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="firstname" type="id_String" nullable="true"/>
@@ -199,8 +199,8 @@
     <metadata connector="FLOW" label="bjfdks" name="tLogRow_1">
       <column comment="" key="false" length="-1" name="firstname" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="lastname" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="floor" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="roomno" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="floor" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="roomno" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFixedFlowInput_1" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_1" target="tMap_1">
