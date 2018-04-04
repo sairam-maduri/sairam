@@ -149,7 +149,7 @@
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="out1">
-        <mapperTableEntries name="newColumn" expression="Double.MAX_VALUE(row1.newColumn) " type="id_Double" nullable="true"/>
+        <mapperTableEntries name="newColumn" expression="Mathematical.ABS(row1.newColumn) " type="id_Double" nullable="true"/>
         <mapperTableEntries name="newColumn1" expression="row1.newColumn1 " type="id_Double" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
