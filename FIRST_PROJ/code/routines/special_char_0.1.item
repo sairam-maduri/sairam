@@ -4,7 +4,7 @@ public class special_char{
 
 public static String sop(String str) {
 
-str = str.replaceAll("[^a-zA-Z0-9 ]", "");
+str = str.replaceAll("[^a-zA-Z0-9 :]", "");
 return str;
 
 
