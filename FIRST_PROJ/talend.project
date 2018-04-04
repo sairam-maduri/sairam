@@ -162,6 +162,7 @@
       <relatedItems xmi:id="_6xh6ujfSEeioot76wEyUqQ" id="TalendDataGenerator" version="Latest" type="routine"/>
       <relatedItems xmi:id="_6xh6uzfSEeioot76wEyUqQ" id="TalendDate" version="Latest" type="routine"/>
       <relatedItems xmi:id="_6xh6vDfSEeioot76wEyUqQ" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_2iFz4DfUEeioot76wEyUqQ" id="_WMdtMDfQEeioot76wEyUqQ" version="Latest" type="job"/>
     </ItemsRelations>
     <migrationTask xmi:id="_x_NZsDQSEei75tgpFpecWg" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_x_NZsTQSEei75tgpFpecWg" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
