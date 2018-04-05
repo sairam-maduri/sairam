@@ -476,4 +476,5 @@
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_x5nvEjQSEei75tgpFpecWg" login="sairam@talend.com" firstName="security" lastName="security" type="DI" additionnalData="{}"/>
   <TalendProperties:User xmi:id="_evcxgDQYEei75tgpFpecWg" login="maduri@talend.com" firstName="sai" lastName="ram" type="DI" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_gwxqUDidEei31cQP13rtcw" login="Trigger-Runner" type="DI"/>
 </xmi:XMI>
