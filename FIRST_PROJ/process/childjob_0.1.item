@@ -78,11 +78,11 @@
     <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;" show="false"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;" show="false"/>
     <elementParameter field="TEXT" name="DATASOURCE" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;sairam&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;amc&quot;" show="false"/>
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="" show="false"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;sairam&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;root&quot;" show="false"/>
     <elementParameter field="PASSWORD" name="PASS" value="RAKK+fbFKS3netSiE+1eNw==" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;statcatcher&quot;" show="false"/>
