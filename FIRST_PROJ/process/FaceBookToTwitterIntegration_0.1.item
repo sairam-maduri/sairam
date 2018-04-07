@@ -303,7 +303,7 @@
   </node>
   <node componentName="tFileCopy" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileCopy_1" show="false"/>
-    <elementParameter field="FILE" name="FILENAME" value="((String)globalMap.get(&quot;tFileList_1_CURRENT_FILE&quot;))"/>
+    <elementParameter field="FILE" name="FILENAME" value="((String)globalMap.get(&quot;tFileList_1_CURRENT_FILEEXTENSION&quot;))"/>
     <elementParameter field="CHECK" name="ENABLE_COPY_DIRECTORY" value="false"/>
     <elementParameter field="DIRECTORY" name="SOURCE_DERECTORY" value="&quot;C:/Users/win8/Desktop/input&quot;" show="false"/>
     <elementParameter field="DIRECTORY" name="DESTINATION" value="&quot;C:/Users/win8/Desktop/processed&quot;+&quot;_&quot;+TalendDate.formatDate(&quot;dd-MM-yyyy&quot;,TalendDate.getCurrentDate())"/>
