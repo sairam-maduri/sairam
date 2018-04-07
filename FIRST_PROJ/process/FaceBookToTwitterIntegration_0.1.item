@@ -182,13 +182,13 @@
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFileInputDelimited_1">
-      <column comment="" key="false" length="5" name="id" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="5" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="id" nullable="false" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="5" usefulColumn="true"/>
       <column comment="" key="false" length="50" name="first_name" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="50" usefulColumn="true"/>
       <column comment="" key="false" length="50" name="last_name" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="8" usefulColumn="true"/>
       <column comment="" key="false" length="8" name="sal" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="8" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" name="REJECT">
-      <column comment="" key="false" length="5" name="id" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="5" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="id" nullable="false" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="5" usefulColumn="true"/>
       <column comment="" key="false" length="50" name="first_name" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="50" usefulColumn="true"/>
       <column comment="" key="false" length="50" name="last_name" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="8" usefulColumn="true"/>
       <column comment="" key="false" length="8" name="sal" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="8" usefulColumn="true"/>
@@ -200,13 +200,13 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tBufferOutput_1" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tBufferOutput_1">
-      <column comment="" key="false" length="5" name="id" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="5" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="id" nullable="false" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="5" usefulColumn="true"/>
       <column comment="" key="false" length="50" name="first_name" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="50" usefulColumn="true"/>
       <column comment="" key="false" length="50" name="last_name" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="8" usefulColumn="true"/>
       <column comment="" key="false" length="8" name="sal" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="8" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tBufferInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="256">
+  <node componentName="tBufferInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tBufferInput_1" show="false"/>
     <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
     <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
@@ -221,7 +221,7 @@
       <column comment="" key="false" length="8" name="sal" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="8" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tSplitRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="640" posY="256">
+  <node componentName="tSplitRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="640" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSplitRow_1" show="false"/>
     <elementParameter field="TABLE" name="COL_MAPPING">
       <elementValue elementRef="id" value="row2.id"/>
@@ -235,7 +235,7 @@
       <column comment="" key="false" length="8" name="sal" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="8" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="800" posY="256">
+  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="800" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileOutputDelimited_1" show="false"/>
     <elementParameter field="CHECK" name="USESTREAM" value="false"/>
     <elementParameter field="TEXT" name="STREAMNAME" value="outputStream" show="false"/>
