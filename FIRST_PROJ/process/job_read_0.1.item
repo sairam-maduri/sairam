@@ -131,7 +131,7 @@
   </node>
   <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="320" posY="96">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaRow_1" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="output_row.newColumn =StringHandling.SUBSTR(input_row.newColumn,StringHandling.INSTR(input_row.newColumn,&quot;@&quot;,1,2)+1 ,3) ;&#xA;&#xA;&#xD;&#xA;"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="output_row.newColumn =StringHandling.SUBSTR(input_row.newColumn,StringHandling.INSTR(input_row.newColumn,&quot;@&quot;,1,1)+1 ,3) ;&#xA;&#xA;&#xD;&#xA;"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJavaRow_1">
