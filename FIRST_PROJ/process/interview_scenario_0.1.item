@@ -194,7 +194,7 @@
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="hjhj">
-        <mapperTableEntries name="Column0" expression="(row1.Column1+row1.Column0).equals (row2.Column1+row2.Column0) ?row1.Column1:row1.Column0 " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Column0" expression="!(row1.Column1+row1.Column0).equals (row2.Column1+row2.Column0) ?row1.Column1:row1.Column0 " type="id_String" nullable="true"/>
         <mapperTableEntries name="Column1" expression="row1.Column1 " type="id_String" nullable="true"/>
         <mapperTableEntries name="Column2" expression="row1.Column2 " type="id_Integer" nullable="true"/>
       </outputTables>
@@ -203,7 +203,7 @@
         <mapperTableEntries name="Column1" type="id_String" nullable="true"/>
         <mapperTableEntries name="Column2" type="id_Integer" nullable="true"/>
       </inputTables>
-      <inputTables sizeState="INTERMEDIATE" name="row2" activateCondensedTool="true" matchingMode="FIRST_MATCH" lookupMode="LOAD_ONCE">
+      <inputTables sizeState="INTERMEDIATE" name="row2" activateCondensedTool="true" matchingMode="ALL_ROWS" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="Column0" expression="" type="id_String" nullable="true"/>
         <mapperTableEntries name="Column1" expression="" type="id_String" nullable="true"/>
         <mapperTableEntries name="Column2" type="id_Integer" nullable="true"/>
