@@ -211,9 +211,6 @@
       <elementValue elementRef="COLNAME" value="Column0"/>
       <elementValue elementRef="SORT" value="alpha"/>
       <elementValue elementRef="ORDER" value="asc"/>
-      <elementValue elementRef="COLNAME" value="Column1"/>
-      <elementValue elementRef="SORT" value="alpha"/>
-      <elementValue elementRef="ORDER" value="asc"/>
     </elementParameter>
     <elementParameter field="CHECK" name="EXTERNAL" value="false"/>
     <elementParameter field="DIRECTORY" name="TEMPFILE" value="&quot;C:/Users/win8/workspace/temp&quot;" show="false"/>
