@@ -192,7 +192,7 @@
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var"/>
       <outputTables sizeState="INTERMEDIATE" name="out1">
-        <mapperTableEntries name="Column2" expression="(row1.Column1+row1.Column0+row1.Column2) .equals(row2.line) ?row2.line : &quot;jfh&quot; " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Column2" expression="(row1.Column1+row1.Column0+row1.Column2) .equals(row2.line) ?&quot;jfh&quot; :row2.line " type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="Column0" type="id_String" nullable="true"/>
