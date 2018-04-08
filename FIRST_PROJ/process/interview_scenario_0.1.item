@@ -205,7 +205,7 @@
         <mapperTableEntries name="Column1" type="id_String" nullable="true"/>
         <mapperTableEntries name="Column2" type="id_Integer" nullable="true"/>
       </inputTables>
-      <inputTables sizeState="INTERMEDIATE" name="row2" activateCondensedTool="true" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE" innerJoin="true">
+      <inputTables sizeState="INTERMEDIATE" name="row2" activateCondensedTool="true" matchingMode="ALL_MATCHES" lookupMode="LOAD_ONCE" innerJoin="true">
         <mapperTableEntries name="Column0" expression="" type="id_String" nullable="true"/>
         <mapperTableEntries name="Column1" expression="row1.Column0 " type="id_String" nullable="true"/>
         <mapperTableEntries name="Column2" expression="" type="id_Integer" nullable="true"/>
