@@ -190,7 +190,7 @@
     <elementParameter field="TABLE" name="COL_MAPPING">
       <elementValue elementRef="S_NO" value="row1.S_NO"/>
       <elementValue elementRef="SNAM1" value="row1.SNAM1"/>
-      <elementValue elementRef="subject" value="&quot;s1&quot;+&quot;;&quot;&quot;s2&quot;+&quot;;&quot;s3&quot;"/>
+      <elementValue elementRef="subject" value="&quot;s1&quot;+&quot;;&quot;+&quot;s2&quot;+&quot;;&quot;+&quot;s3&quot;"/>
       <elementValue elementRef="marks" value="row1.S1+&quot;;&quot;+row1.S2+&quot;;&quot;+row1.S3"/>
     </elementParameter>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
