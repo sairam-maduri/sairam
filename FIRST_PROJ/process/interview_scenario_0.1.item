@@ -203,7 +203,7 @@
         <mapperTableEntries name="Column1" type="id_String" nullable="true"/>
         <mapperTableEntries name="Column2" type="id_Integer" nullable="true"/>
       </inputTables>
-      <inputTables sizeState="INTERMEDIATE" name="row2" activateCondensedTool="true" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+      <inputTables sizeState="INTERMEDIATE" name="row2" activateCondensedTool="true" matchingMode="ALL_MATCHES" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="Column0" expression="" type="id_String" nullable="true"/>
         <mapperTableEntries name="Column1" expression="" type="id_String" nullable="true"/>
         <mapperTableEntries name="Column2" type="id_Integer" nullable="true"/>
