@@ -193,7 +193,7 @@
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
-      <outputTables sizeState="INTERMEDIATE" name="hjhj" expressionFilter="(row1.Column0+row1.Column1).equals (row2.Column1+row2.Column0) " activateExpressionFilter="true" activateCondensedTool="true">
+      <outputTables sizeState="INTERMEDIATE" name="hjhj" expressionFilter="(row1.Column0+row1.Column1).equals (row2.Column1+row2.Column0)" activateExpressionFilter="true">
         <mapperTableEntries name="Column0" expression="row1.Column0 " type="id_String" nullable="true"/>
         <mapperTableEntries name="Column1" expression="row1.Column1 " type="id_String" nullable="true"/>
         <mapperTableEntries name="Column2" expression="row1.Column2 " type="id_Integer" nullable="true"/>
@@ -204,8 +204,8 @@
         <mapperTableEntries name="Column2" type="id_Integer" nullable="true"/>
       </inputTables>
       <inputTables sizeState="INTERMEDIATE" name="row2" activateCondensedTool="true" matchingMode="UNIQUE_MATCH" lookupMode="RELOAD" innerJoin="true">
-        <mapperTableEntries name="Column0" expression="row1.Column0 " type="id_String" nullable="true" operator="="/>
-        <mapperTableEntries name="Column1" expression="" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Column0" expression="" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Column1" expression="row1.Column0 " type="id_String" nullable="true"/>
         <mapperTableEntries name="Column2" type="id_Integer" nullable="true"/>
       </inputTables>
     </nodeData>
