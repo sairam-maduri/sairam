@@ -203,7 +203,7 @@
       </inputTables>
       <inputTables sizeState="INTERMEDIATE" name="row2" activateCondensedTool="true" matchingMode="ALL_MATCHES" lookupMode="LOAD_ONCE" innerJoin="true">
         <mapperTableEntries name="Column0" expression="row1.Column0 " type="id_String" nullable="true" operator="="/>
-        <mapperTableEntries name="Column1" expression="row1.Column1 " type="id_String" nullable="true" operator="="/>
+        <mapperTableEntries name="Column1" expression="" type="id_String" nullable="true"/>
         <mapperTableEntries name="Column2" expression="row1.Column2 " type="id_Integer" nullable="true" operator="="/>
       </inputTables>
     </nodeData>
