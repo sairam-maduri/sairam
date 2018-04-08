@@ -195,7 +195,7 @@
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var"/>
-      <outputTables sizeState="INTERMEDIATE" name="out1" expressionFilter="!(row1.Column0+row1.Column1+row1.Column2) .equals(row1.Column1+row1.Column0+row1.Column2)" activateExpressionFilter="true">
+      <outputTables sizeState="INTERMEDIATE" name="out1" expressionFilter="(row1.Column0+row1.Column1+row1.Column2) .equals(row1.Column1+row1.Column0+row1.Column2)" activateExpressionFilter="true">
         <mapperTableEntries name="Column0" expression="row1.Column0 " type="id_String" nullable="true"/>
         <mapperTableEntries name="Column1" expression="row1.Column1 " type="id_String" nullable="true"/>
         <mapperTableEntries name="Column2" expression="row1.Column2 " type="id_Integer" nullable="true"/>
