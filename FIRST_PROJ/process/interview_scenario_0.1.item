@@ -203,9 +203,9 @@
         <mapperTableEntries name="Column1" type="id_String" nullable="true"/>
         <mapperTableEntries name="Column2" type="id_Integer" nullable="true"/>
       </inputTables>
-      <inputTables sizeState="INTERMEDIATE" name="row2" activateCondensedTool="true" matchingMode="UNIQUE_MATCH" lookupMode="RELOAD">
+      <inputTables sizeState="INTERMEDIATE" name="row2" activateCondensedTool="true" matchingMode="UNIQUE_MATCH" lookupMode="RELOAD" innerJoin="true">
         <mapperTableEntries name="Column0" expression="row1.Column0 " type="id_String" nullable="true" operator="="/>
-        <mapperTableEntries name="Column1" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Column1" expression="" type="id_String" nullable="true"/>
         <mapperTableEntries name="Column2" type="id_Integer" nullable="true"/>
       </inputTables>
     </nodeData>
