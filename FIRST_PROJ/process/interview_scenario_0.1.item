@@ -194,7 +194,7 @@
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="hjhj">
-        <mapperTableEntries name="Column0" expression="(row1.Column1+row1.Column0).equals (row1.Column0+row1.Column1) ?row1.Column1:row1.Column0 " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Column0" expression="(row1.Column0+row1.Column1).equals (row2.Column1+row2.Column0) ?row1.Column1:row1.Column0 " type="id_String" nullable="true"/>
         <mapperTableEntries name="Column1" expression="row1.Column1 " type="id_String" nullable="true"/>
         <mapperTableEntries name="Column2" expression="row1.Column2 " type="id_Integer" nullable="true"/>
       </outputTables>
@@ -203,9 +203,9 @@
         <mapperTableEntries name="Column1" type="id_String" nullable="true"/>
         <mapperTableEntries name="Column2" type="id_Integer" nullable="true"/>
       </inputTables>
-      <inputTables sizeState="INTERMEDIATE" name="row2" activateCondensedTool="true" matchingMode="ALL_MATCHES" lookupMode="LOAD_ONCE">
+      <inputTables sizeState="INTERMEDIATE" name="row2" activateCondensedTool="true" matchingMode="UNIQUE_MATCH" lookupMode="RELOAD">
         <mapperTableEntries name="Column0" expression="row1.Column0 " type="id_String" nullable="true" operator="="/>
-        <mapperTableEntries name="Column1" expression="" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Column1" type="id_String" nullable="true"/>
         <mapperTableEntries name="Column2" type="id_Integer" nullable="true"/>
       </inputTables>
     </nodeData>
@@ -240,7 +240,7 @@
       <column comment="" key="false" length="3" name="Column2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="384" posY="192">
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="384" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_2" show="false"/>
     <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
     <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/win8/Desktop/New Text Document.txt&quot;"/>
