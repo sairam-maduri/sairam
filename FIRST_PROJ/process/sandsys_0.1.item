@@ -248,7 +248,7 @@
         <mapperTableEntries name="SNAM1" type="id_Character" nullable="true"/>
         <mapperTableEntries name="subject" type="id_String" nullable="true"/>
       </inputTables>
-      <inputTables sizeState="INTERMEDIATE" name="row6" activateCondensedTool="true" matchingMode="FIRST_MATCH" lookupMode="LOAD_ONCE">
+      <inputTables sizeState="INTERMEDIATE" name="row6" activateCondensedTool="true" matchingMode="ALL_MATCHES" lookupMode="RELOAD">
         <mapperTableEntries name="S_NO" expression="row3.S_NO " type="id_Integer" nullable="true" operator="="/>
         <mapperTableEntries name="SNAM1" expression="row3.SNAM1 " type="id_Character" nullable="true" operator="="/>
         <mapperTableEntries name="marks" type="id_String" nullable="true"/>
