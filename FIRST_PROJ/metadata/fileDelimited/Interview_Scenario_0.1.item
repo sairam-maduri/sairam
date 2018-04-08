@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_W45YsDsuEeiUSNESDCLSjg" name="Interview_Scenario" dataPackage="_W45_wDsuEeiUSNESDCLSjg" Server="Localhost 127.0.0.1" FilePath="C:/Users/win8/Desktop/New Text Document.txt" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_W45_wDsuEeiUSNESDCLSjg" name="default" dataManager="_W45YsDsuEeiUSNESDCLSjg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_W45_wTsuEeiUSNESDCLSjg" id="_MAY-EDsuEeiUSNESDCLSjg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W45_wjsuEeiUSNESDCLSjg" label="Column0" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W45_wzsuEeiUSNESDCLSjg" label="Column1" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W45_xDsuEeiUSNESDCLSjg" label="Column2" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
