@@ -234,7 +234,6 @@
     </ItemsRelations>
     <ItemsRelations xmi:id="_59PFMDsuEeiUSNESDCLSjg">
       <baseItem xmi:id="_59PsQDsuEeiUSNESDCLSjg" id="_DlE-oDsuEeiUSNESDCLSjg" version="0.1" type="job"/>
-      <relatedItems xmi:id="_59PsQTsuEeiUSNESDCLSjg" id="_W4d64DsuEeiUSNESDCLSjg" version="Latest" type="property"/>
       <relatedItems xmi:id="_59PsQjsuEeiUSNESDCLSjg" id="SQLike" version="Latest" type="routine"/>
       <relatedItems xmi:id="_59PsQzsuEeiUSNESDCLSjg" id="Numeric" version="Latest" type="routine"/>
       <relatedItems xmi:id="_59PsRDsuEeiUSNESDCLSjg" id="Relational" version="Latest" type="routine"/>
