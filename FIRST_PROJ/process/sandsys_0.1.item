@@ -188,7 +188,7 @@
   <node componentName="tPivotToColumnsDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="320" posY="64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPivotToColumnsDelimited_1" show="false"/>
     <elementParameter field="PREV_COLUMN_LIST" name="PIVOT_COLUMN" value="SNAM1"/>
-    <elementParameter field="PREV_COLUMN_LIST" name="AGGREGATION_COLUMN" value="S1"/>
+    <elementParameter field="PREV_COLUMN_LIST" name="AGGREGATION_COLUMN" value="S_NO"/>
     <elementParameter field="CLOSED_LIST" name="AGGREGATION_FUNCTION" value="sum"/>
     <elementParameter field="TABLE" name="GROUPBYS">
       <elementValue elementRef="INPUT_COLUMN" value="SNAM1"/>
