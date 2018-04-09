@@ -217,7 +217,7 @@
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var"/>
-      <outputTables sizeState="INTERMEDIATE" name="abd" expressionFilter="!( row1.first_name) .equals (&quot;&quot;) &amp;&amp; !(row1..last_name) .equals (&quot;&quot;) &amp;&amp;  row1.id  != null" activateExpressionFilter="true">
+      <outputTables sizeState="INTERMEDIATE" name="abd" expressionFilter="!( row1.first_name) .equals (&quot;&quot;) &amp;&amp; !(row1.last_name) .equals (&quot;&quot;) &amp;&amp;  row1.id  != null" activateExpressionFilter="true">
         <mapperTableEntries name="id" expression="row1.id " type="id_Integer"/>
         <mapperTableEntries name="first_name" expression="row1.first_name" type="id_String" nullable="true"/>
         <mapperTableEntries name="last_name" expression="row1.last_name" type="id_String" nullable="true"/>
