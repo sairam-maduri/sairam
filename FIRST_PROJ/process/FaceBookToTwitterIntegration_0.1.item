@@ -358,7 +358,7 @@
         <mapperTableEntries name="origin" expression="row2.origin" type="id_String" nullable="true"/>
         <mapperTableEntries name="message" expression="row2.message" type="id_String" nullable="true"/>
         <mapperTableEntries name="code" expression="row2.code" type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="Errorline" expression="((Integer)globalMap.get(&quot;tFileOutputDelimited_1_NB_LINE&quot;))" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="Errorline" expression="((Integer)globalMap.get(&quot;tJavaRow_1_NB_LINE&quot;))" type="id_Integer" nullable="true"/>
         <mapperTableEntries name="Filename" expression="((String)globalMap.get(&quot;tFileList_1_CURRENT_FILE&quot;))" type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row2" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
