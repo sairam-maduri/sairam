@@ -182,7 +182,7 @@
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFileInputDelimited_1">
-      <column comment="" key="false" length="5" name="id" nullable="false" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="5" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="id" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="5" usefulColumn="true"/>
       <column comment="" key="false" length="50" name="first_name" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="50" usefulColumn="true"/>
       <column comment="" key="false" length="50" name="last_name" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="8" usefulColumn="true"/>
       <column comment="" key="false" length="8" name="sal" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="8" usefulColumn="true"/>
@@ -209,7 +209,7 @@
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="abd" name="abd">
-      <column comment="" key="false" length="5" name="id" nullable="false" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="5" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="id" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="5" usefulColumn="true"/>
       <column comment="" key="false" length="50" name="first_name" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="50" usefulColumn="true"/>
       <column comment="" key="false" length="50" name="last_name" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="8" usefulColumn="true"/>
       <column comment="" key="false" length="8" name="sal" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="8" usefulColumn="true"/>
@@ -218,13 +218,13 @@
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var"/>
       <outputTables sizeState="INTERMEDIATE" name="abd" expressionFilter="!( row1.first_name) .equals (&quot;&quot;) &amp;&amp; !(row1.last_name) .equals (&quot;&quot;)">
-        <mapperTableEntries name="id" expression="row1.id +0" type="id_Integer"/>
+        <mapperTableEntries name="id" expression="row1.id +0" type="id_Integer" nullable="true"/>
         <mapperTableEntries name="first_name" expression="row1.first_name" type="id_String" nullable="true"/>
         <mapperTableEntries name="last_name" expression="row1.last_name" type="id_String" nullable="true"/>
         <mapperTableEntries name="sal" expression="row1.sal + 0" type="id_Integer" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
-        <mapperTableEntries name="id" type="id_Integer"/>
+        <mapperTableEntries name="id" type="id_Integer" nullable="true"/>
         <mapperTableEntries name="first_name" type="id_String" nullable="true"/>
         <mapperTableEntries name="last_name" type="id_String" nullable="true"/>
         <mapperTableEntries name="sal" type="id_Integer" nullable="true"/>
@@ -262,7 +262,7 @@
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="90" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="abd" name="tFileOutputDelimited_1">
-      <column comment="" key="false" length="5" name="id" nullable="false" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="5" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="id" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="5" usefulColumn="true"/>
       <column comment="" key="false" length="50" name="first_name" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="50" usefulColumn="true"/>
       <column comment="" key="false" length="50" name="last_name" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="8" usefulColumn="true"/>
       <column comment="" key="false" length="8" name="sal" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="8" usefulColumn="true"/>
