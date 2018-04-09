@@ -216,14 +216,12 @@
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
-      <varTables sizeState="INTERMEDIATE" name="Var">
-        <mapperTableEntries name="var1" expression="tmap.sal = tmap.sal + 0" type="id_Integer"/>
-      </varTables>
+      <varTables sizeState="INTERMEDIATE" name="Var"/>
       <outputTables sizeState="INTERMEDIATE" name="abd" expressionFilter="!( tmap.first_name) .equals (&quot;&quot;) &amp;&amp; !( tmap.last_name) .equals (&quot;&quot;) &amp;&amp;  tmap.id  != null" activateExpressionFilter="true">
         <mapperTableEntries name="id" expression="tmap.id " type="id_Integer"/>
         <mapperTableEntries name="first_name" expression="tmap.first_name" type="id_String" nullable="true"/>
         <mapperTableEntries name="last_name" expression="tmap.last_name" type="id_String" nullable="true"/>
-        <mapperTableEntries name="sal" expression="Var.var1 " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="sal" expression="tmap.sal = tmap.sal + 0" type="id_Integer" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="id" type="id_Integer"/>
