@@ -255,7 +255,7 @@
       <varTables sizeState="INTERMEDIATE" name="Var"/>
       <outputTables sizeState="INTERMEDIATE" name="abd">
         <mapperTableEntries name="id" expression="row1.id +0" type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="first_name" expression="row1.first_name+&quot; &quot;+row1.last_name" type="id_String" nullable="true"/>
+        <mapperTableEntries name="first_name" expression="!row1.first_name .equals (&quot; &quot;) +&quot; &quot;+row1.last_name" type="id_String" nullable="true"/>
         <mapperTableEntries name="sal" expression="row1.sal + 0" type="id_Integer" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
