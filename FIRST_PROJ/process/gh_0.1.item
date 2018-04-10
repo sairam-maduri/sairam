@@ -193,6 +193,15 @@
       <elementValue elementRef="INPUT_COLUMN" value="lname"/>
       <elementValue elementRef="DELIMITER" value="&quot;;&quot;"/>
       <elementValue elementRef="MERGE" value="true"/>
+      <elementValue elementRef="INPUT_COLUMN" value="supplier"/>
+      <elementValue elementRef="DELIMITER" value="&quot;|&quot;"/>
+      <elementValue elementRef="MERGE" value="true"/>
+      <elementValue elementRef="INPUT_COLUMN" value="date"/>
+      <elementValue elementRef="DELIMITER" value="&quot;|&quot;"/>
+      <elementValue elementRef="MERGE" value="true"/>
+      <elementValue elementRef="INPUT_COLUMN" value="mealcode"/>
+      <elementValue elementRef="DELIMITER" value="&quot;|&quot;"/>
+      <elementValue elementRef="MERGE" value="false"/>
     </elementParameter>
     <elementParameter field="LABEL" name="NOTE" value=""/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
