@@ -193,10 +193,10 @@
       <elementValue elementRef="MERGE" value="true"/>
       <elementValue elementRef="INPUT_COLUMN" value="supplier"/>
       <elementValue elementRef="DELIMITER" value="&quot;|&quot;"/>
-      <elementValue elementRef="MERGE" value="true"/>
+      <elementValue elementRef="MERGE" value="false"/>
       <elementValue elementRef="INPUT_COLUMN" value="date"/>
       <elementValue elementRef="DELIMITER" value="&quot;|&quot;"/>
-      <elementValue elementRef="MERGE" value="true"/>
+      <elementValue elementRef="MERGE" value="false"/>
       <elementValue elementRef="INPUT_COLUMN" value="mealcode"/>
       <elementValue elementRef="DELIMITER" value="&quot;|&quot;"/>
       <elementValue elementRef="MERGE" value="false"/>
