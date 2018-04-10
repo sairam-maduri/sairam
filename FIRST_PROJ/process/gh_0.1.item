@@ -226,7 +226,7 @@
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="out1">
-      <column comment="" key="false" length="15" name="pid" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="15" name="pid" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="amount" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="5" name="fname" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="5" name="lname" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
