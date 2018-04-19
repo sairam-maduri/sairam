@@ -207,7 +207,7 @@
       <column comment="" key="false" length="2" name="DEPTNO" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="14" name="DNAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="13" name="LOC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="4" name="EMPNO" nullable="false" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="true" length="4" name="EMPNO" nullable="false" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="ENAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="9" name="JOB" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="MGR" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" originalLength="-1" usefulColumn="true"/>
@@ -219,7 +219,7 @@
       <column comment="" key="false" length="2" name="DEPTNO" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="14" name="DNAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="13" name="LOC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="4" name="EMPNO" nullable="false" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="true" length="4" name="EMPNO" nullable="false" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="ENAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="9" name="JOB" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="MGR" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" originalLength="-1" usefulColumn="true"/>
@@ -270,7 +270,7 @@
       <column comment="" key="false" length="2" name="DEPTNO" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="14" name="DNAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="13" name="LOC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="4" name="EMPNO" nullable="false" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="true" length="4" name="EMPNO" nullable="false" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="ENAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="9" name="JOB" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="MGR" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" originalLength="-1" usefulColumn="true"/>
@@ -321,7 +321,7 @@
       <column comment="" key="false" length="2" name="DEPTNO" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="14" name="DNAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="13" name="LOC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="4" name="EMPNO" nullable="false" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="true" length="4" name="EMPNO" nullable="false" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="ENAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="9" name="JOB" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="MGR" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" originalLength="-1" usefulColumn="true"/>
