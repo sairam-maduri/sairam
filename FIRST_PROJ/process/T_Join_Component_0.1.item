@@ -202,7 +202,10 @@
       <elementValue elementRef="OUTPUT_COLUMN" value="LOC"/>
       <elementValue elementRef="LOOKUP_COLUMN" value="LOC"/>
     </elementParameter>
-    <elementParameter field="TABLE" name="JOIN_KEY"/>
+    <elementParameter field="TABLE" name="JOIN_KEY">
+      <elementValue elementRef="INPUT_COLUMN" value="DEPTNO"/>
+      <elementValue elementRef="LOOKUP_COLUMN" value="DEPTNO"/>
+    </elementParameter>
     <elementParameter field="CHECK" name="USE_INNER_JOIN" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJoin_1">
