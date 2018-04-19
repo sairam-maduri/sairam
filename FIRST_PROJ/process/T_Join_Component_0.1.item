@@ -204,7 +204,7 @@
       <elementValue elementRef="INPUT_COLUMN" value="DEPTNO"/>
       <elementValue elementRef="LOOKUP_COLUMN" value="DEPTNO"/>
     </elementParameter>
-    <elementParameter field="CHECK" name="USE_INNER_JOIN" value="false"/>
+    <elementParameter field="CHECK" name="USE_INNER_JOIN" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJoin_1">
       <column comment="" key="true" length="4" name="EMPNO" nullable="false" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" originalLength="-1" usefulColumn="true"/>
