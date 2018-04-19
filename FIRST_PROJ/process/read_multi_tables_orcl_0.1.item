@@ -110,7 +110,7 @@
   <node componentName="tOracleTableList" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="192" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tOracleTableList_1" show="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tOracleConnection_1"/>
-    <elementParameter field="TEXT" name="WHERE_CLAUSE" value="&quot;TABLE_NAME like 'emp' | &quot;"/>
+    <elementParameter field="TEXT" name="WHERE_CLAUSE" value="&quot;TABLE_NAME like 'emp'  &quot;"/>
     <elementParameter field="TEXT" name="QUERY" value="&quot;SELECT TABLE_NAME FROM USER_TABLES WHERE (TABLE_NAME not like '%$%') ORDER BY TABLE_NAME ASC&quot;" show="false"/>
     <elementParameter field="CLOSED_LIST" name="FETCH_FROM" value="USER_TABLES"/>
     <elementParameter field="LABEL" name="NOTE" value="*Note: Table names are always in upper case. Example for the where clause: &quot;TNAME not like '%$%' AND (TNAME like 'S%' OR TNAME='TALEND')&quot;" show="false"/>
