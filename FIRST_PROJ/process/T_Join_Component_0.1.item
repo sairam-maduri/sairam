@@ -183,7 +183,7 @@
     <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tOracleInput_2">
-      <column comment="" key="true" length="4" name="EMPNO" nullable="false" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="EMPNO" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="ENAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="9" name="JOB" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="MGR" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" originalLength="-1" usefulColumn="true"/>
@@ -239,7 +239,7 @@
     <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tOracleInput_1">
-      <column comment="" key="true" length="-1" name="DEPTNO" nullable="false" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DEPTNO" nullable="true" pattern="" precision="0" sourceType="INTEGER" type="id_Integer" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="14" name="DNAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="13" name="LOC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
